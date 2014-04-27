@@ -37,6 +37,7 @@ sub hodor {
 	Irssi::signal_stop();
 	Irssi::signal_remove('send text', 'hodor');
 	Irssi::signal_emit('send text', rodoh("$msg"), $server, $witem);
+	$witem->print("%B<<UNHODOR TEXT>>%n ". $msg, MSGLEVEL_CLIENTCRAP);
 	Irssi::signal_add('send text', 'hodor');
 }
 
