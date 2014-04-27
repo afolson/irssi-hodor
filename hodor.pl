@@ -49,7 +49,7 @@ sub rodoh {
 		$word = "hodor";
 		$hodor .= $word . $ws;
 	}
-	return $output;
+	return $hodor;
 }
 
 Irssi::signal_add('send text', 'hodor');
