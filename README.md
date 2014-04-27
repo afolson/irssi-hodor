@@ -1,4 +1,1 @@
-irssi-hodor
-===========
-
 Hodor.
